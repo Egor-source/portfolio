@@ -1,0 +1,43 @@
+body {
+  background-color: #0b0c16;
+  color: #fff;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+@theme {
+  /* Основной фон и карточки */
+  --color-brand-bg: #050512; /* Глубокий темный фон всего сайта */
+  --color-brand-surface: #0c0c1e; /* Фон блоков, карточек опыта и проектов */
+  --color-brand-border: #16162e; /* Цвет тонких границ карточек */
+
+  /* Акцентные цвета */
+  --color-accent-purple: #5d3ef8; /* Фиолетовый для кнопок */
+  --color-accent-purple-hover: #4b2ed4;
+  --color-accent-purple-light: #9179ff; /* Для градиентов / текста */
+  --color-accent-blue: #3b82f6; /* Синий для тегов и ссылок */
+  --color-accent-blue-muted: #1d243d; /* Подложка "Want to see more?" */
+
+  /* Цвета текста */
+  --color-muted: #94a3b8; /* Серый текст для описаний */
+  --color-muted-dark: #64748b; /* Темный серый для копирайта */
+
+  /* Скругления (в макете они мягкие) */
+  --radius-brand: 1rem; /* Для основных карточек (~16px) */
+  --radius-brand-sm: 0.5rem; /* Для тегов и кнопок (~8px) */
+
+  /* Шрифты */
+  --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+
+  /* Градиенты */
+  --background-image-text-gradient: linear-gradient(to right, #9179ff, #5d3ef8);
+}

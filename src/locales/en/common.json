@@ -1,0 +1,40 @@
+{
+  "pageTitle": {
+    "home": "Home",
+    "projects": "Projects",
+    "experience": "Experience",
+    "cases": "Cases",
+    "stack": "Stack",
+    "about": "About",
+    "404": "Page not found"
+  },
+  "contactMe": "Contact Me",
+  "contactGreetings": "\nFeel free to use whichever communication method is most convenient for you. I’d be happy to discuss your project or answer any questions!",
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "experience": "Experience",
+    "caseStudies": "Cases",
+    "techStack": "Stack",
+    "about": "About"
+  },
+  "home": {
+    "greetings": {
+      "available": "Available for new projects",
+      "header": "I build scalable web applications and MVPs that solve real business problems",
+      "summary": "Hi, I'm Egor. A Full-Stack Developer specializing in React/Vue, Node.js, and high-performance digital products. Let's turn your idea into a robust tech solution.",
+      "myProjects": "View My Projects",
+      "downloadCV": "Download CV"
+    },
+    "statsBar": {
+      "experience": "Years Experience",
+      "projects": "Projects Completed",
+      "companies": "Companies"
+    }
+  },
+  "404": {
+    "title": "Page Not Found",
+    "message": "Oops! It looks like this page got lost in the digital void—or never existed at all.",
+    "back": "Back to Home"
+  }
+}

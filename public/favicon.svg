@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="8" fill="#050512"/>
+  
+  <circle cx="16" cy="16" r="7" fill="#5d3ef8" filter="blur(3.5px)" opacity="0.45"/>
+  
+  <text 
+    x="16" 
+    y="22.5" 
+    text-anchor="middle" 
+    font-family="Plus Jakarta Sans, Inter, sans-serif" 
+    font-size="17" 
+    font-weight="bold" 
+    letter-spacing="-0.5"
+  >
+    <tspan fill="#ffffff">E</tspan><tspan fill="#5d3ef8">K</tspan>
+  </text>
+</svg>
