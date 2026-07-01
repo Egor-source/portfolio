@@ -6,7 +6,7 @@ const Greetings = () => {
   const { t, i18n } = useTranslation()
 
   const downloadCv = () => {
-    const lang = i18n.language === 'ru-RU' ? 'ru' : 'en'
+    const lang = i18n.language.includes('ru') ? 'ru' : 'en'
     const link = document.createElement('a')
     link.href = `/docs/cv-${lang}.pdf`
     link.download = lang === 'ru' ? 'Егор Кротов Резюме.pdf' : 'Egor Krotov CV.pdf'
