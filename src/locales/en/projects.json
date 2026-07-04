@@ -9,23 +9,27 @@
     "frontend": "Frontend",
     "backend": "Backend"
   },
+  "demoTitle": "Demo video: {{projectTitle}}",
   "searchPlaceholder": "Search by tags",
   "noResults": "No projects found matching your criteria.",
   "list": [
     {
       "id": "1",
       "title": "Cybersecurity Dashboard",
-      "description": "Real-time threat monitoring platform with advanced analytics, customizable widgets, and automated alerts."
+      "description": "Real-time threat monitoring platform with advanced analytics, customizable widgets, and automated alerts.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
     },
     {
       "id": "2",
       "title": "E-Commerce Engine",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering."
+      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
     },
     {
       "id": "3",
       "title": "E-Commerce Engine",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering."
+      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
     }
   ]
 }

@@ -18,9 +18,9 @@ const Button: FC<ButtonProps> = ({ children, variant = 'primary', className, ...
   return (
     <button
       className={clsx(
+        className,
         'rounded-lg px-4 py-2 font-medium transition active:scale-[0.98] text-sm cursor-pointer',
-        variants[variant],
-        className
+        variants[variant]
       )}
       {...props}
     >

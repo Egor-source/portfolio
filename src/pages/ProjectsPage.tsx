@@ -4,10 +4,11 @@ import projectsData from '../data/projects.json'
 import ProjectCard from '../components/projects/ProjectCard.tsx'
 import ProjectsSearch from '../components/projects/ProjectsSearch.tsx'
 import { useMemo, useState } from 'react'
+import { useNavigate } from 'react-router'
 
 const ProjectsPage = () => {
   const { t } = useTranslation('projects')
-
+  const navigate = useNavigate()
   const projectsLocales = t('list', { returnObjects: true }) as ProjectLocale[]
   const projectsList: ProjectItem[] = projectsLocales.map((projectLocale: ProjectLocale) => {
     const data = projectsData.find(({ id }) => id === projectLocale.id)
@@ -59,7 +60,13 @@ const ProjectsPage = () => {
       return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-in fade-in slide-in-from-top-4 duration-700 delay-100">
           {filteredProjectsList.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+            <div
+              key={project.id}
+              className="cursor-pointer"
+              onClick={() => navigate(`/projects/${project.id}`)}
+            >
+              <ProjectCard project={project} />
+            </div>
           ))}
         </div>
       )

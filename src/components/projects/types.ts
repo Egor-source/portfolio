@@ -2,6 +2,7 @@ export interface ProjectLocale {
   id: string
   title: string
   description: string
+  fullDescription: string
 }
 
 export interface ProjectData {
@@ -11,6 +12,11 @@ export interface ProjectData {
   category: string
   link?: string
   github?: string
+  images?: string[]
+  demo?: {
+    youtube: string
+    vk: string
+  }
 }
 
 export type ProjectItem = ProjectLocale & ProjectData

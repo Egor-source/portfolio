@@ -62,7 +62,7 @@ const ProjectsSearch: FC<ProjectsSearchProps> = ({ updateCategory, updateTags, t
             key={cat.id}
             type="button"
             onClick={() => onUpdateCategory(cat.id)}
-            className={`px-4 py-2 text-xs md:text-sm font-medium rounded-brand-sm transition-all cursor-pointer select-none
+            className={`px-4 py-2 text-xs md:text-sm font-medium rounded-brand-sm transition-[color] cursor-pointer select-none
                   ${
                     selectedCategory === cat.id
                       ? 'bg-brand-surface border border-brand-border text-white shadow-md'

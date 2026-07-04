@@ -5,7 +5,16 @@
     "link": "https://demo.example.com",
     "category": "frontend",
     "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-    "github": "https://github.com/example"
+    "images": [
+      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
+      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
+      "/https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
+    ],
+    "github": "https://github.com/example",
+    "demo": {
+      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
+      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
+    }
   },
   {
     "id": "2",
@@ -13,7 +22,16 @@
     "link": "https://shop.example.com",
     "category": "backend",
     "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-    "github": "https://github.com/example"
+    "images": [
+      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
+      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
+      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
+    ],
+    "github": "https://github.com/example",
+    "demo": {
+      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
+      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
+    }
   },
   {
     "id": "3",
@@ -21,6 +39,15 @@
     "link": "https://shop.example.com",
     "category": "backend",
     "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-    "github": "https://github.com/example"
+    "images": [
+      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
+      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
+      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
+    ],
+    "github": "https://github.com/example",
+    "demo": {
+      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
+      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
+    }
   }
 ]

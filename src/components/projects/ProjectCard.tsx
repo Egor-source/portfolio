@@ -1,12 +1,24 @@
-import { type FC } from 'react'
+import { type FC, useState, type MouseEvent } from 'react'
 import type { ProjectItem } from './types.ts'
 import { useTranslation } from 'react-i18next'
 import CodeIcon from '@/assets/icons/code.svg?react'
 import OpenInBrowserIcon from '@/assets/icons/open-in-browser.svg?react'
 import Tag from '../UI/Tag.tsx'
+import DemoModal from './DemoModal.tsx'
 
 const ProjectCard: FC<{ project: ProjectItem }> = ({ project }) => {
   const { t } = useTranslation('projects')
+  const [isOpenModal, setIsOpenModal] = useState(false)
+
+  const onModalOpen = (e: MouseEvent<HTMLDivElement>) => {
+    e.stopPropagation()
+    setIsOpenModal(true)
+  }
+
+  const onModalClose = () => {
+    setIsOpenModal(false)
+  }
+
   return (
     <article className="flex flex-col bg-brand-surface border border-brand-border rounded-brand overflow-hidden hover:border-accent-purple/40 hover:shadow-2xl hover:shadow-accent-purple/5 transition-all duration-300 group">
       <div className="relative aspect-[16/10] w-full overflow-hidden bg-brand-bg border-b border-brand-border/60">
@@ -40,6 +52,7 @@ const ProjectCard: FC<{ project: ProjectItem }> = ({ project }) => {
         <div className="flex items-center gap-5 border-t border-brand-border/40 pt-4 mt-auto">
           {project.github && (
             <a
+              onClick={(e) => e.stopPropagation()}
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
@@ -50,11 +63,9 @@ const ProjectCard: FC<{ project: ProjectItem }> = ({ project }) => {
             </a>
           )}
 
-          {project.link && (
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
+          {project.demo && (
+            <div
+              onClick={onModalOpen}
               className="inline-flex items-center gap-1.5 text-xs font-semibold text-accent-purple-light hover:text-white transition-colors ml-auto cursor-pointer group/link"
             >
               <span>{t('liveDemo')}</span>
@@ -62,10 +73,19 @@ const ProjectCard: FC<{ project: ProjectItem }> = ({ project }) => {
                 className="w-3.5 h-3.5 transform  group-hover/link:-translate-y-0.5 transition-transform fill-accent-purple-light"
                 stroke="currentColor"
               />
-            </a>
+            </div>
           )}
         </div>
       </div>
+      {project.demo && (
+        <DemoModal
+          title={project.title}
+          youtube={project.demo.youtube}
+          vk={project.demo.vk}
+          isOpen={isOpenModal}
+          onClose={onModalClose}
+        />
+      )}
     </article>
   )
 }

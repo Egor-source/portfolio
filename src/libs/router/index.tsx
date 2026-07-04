@@ -7,6 +7,7 @@ import CasesPage from '../../pages/CasesPage.tsx'
 import StackPage from '../../pages/StackPage.tsx'
 import AboutPage from '../../pages/AboutPage.tsx'
 import NotFoundPage from '../../pages/NotFoundPage.tsx'
+import ProjectDetailPage from '../../pages/ProjectDetailPage.tsx'
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,14 @@ export const router = createBrowserRouter([
         element: <ProjectsPage />,
         handle: {
           title: 'projects',
+        },
+      },
+      {
+        path: '/projects/:id',
+        element: <ProjectDetailPage />,
+        handle: {
+          title: 'project',
+          useParam: 'id',
         },
       },
       {

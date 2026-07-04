@@ -1,15 +1,11 @@
 import { useTranslation } from 'react-i18next'
-import Modal from '../UI/Modal.tsx'
+import Modal from '../UI/modal/Modal.tsx'
 import TelegramIcon from '../../assets/icons/telegram.svg?react'
 import WhatsappIcon from '../../assets/icons/whatsapp.svg?react'
 import EmailIcon from '../../assets/icons/email.svg?react'
+import type { ModalProps } from '../UI/modal/types.ts'
 
-interface ContactModalProps {
-  isOpen: boolean
-  onClose: () => void
-}
-
-export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
+export default function ContactModal({ isOpen, onClose }: ModalProps) {
   const { t } = useTranslation()
 
   const contactLinks = [
