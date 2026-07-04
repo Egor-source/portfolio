@@ -8,6 +8,8 @@
     "about": "About",
     "404": "Page not found"
   },
+  "emptySelectOptions": "No results",
+  "searchPlaceholder": "Search",
   "contactMe": "Contact Me",
   "contactGreetings": "\nFeel free to use whichever communication method is most convenient for you. I’d be happy to discuss your project or answer any questions!",
   "nav": {
@@ -28,7 +30,7 @@
     },
     "statsBar": {
       "experience": "Years Experience",
-      "projects": "Projects Completed",
+      "projects": "Projects",
       "companies": "Companies"
     }
   },

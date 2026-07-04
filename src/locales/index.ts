@@ -2,8 +2,11 @@ import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 
-import en from './en/common.json'
-import ru from './ru/common.json'
+import enCommon from './en/common.json'
+import ruCommon from './ru/common.json'
+
+import enProjects from './en/projects.json'
+import ruProjects from './ru/projects.json'
 
 i18n
   .use(LanguageDetector)
@@ -11,15 +14,20 @@ i18n
   .init({
     resources: {
       en: {
-        common: en,
+        common: enCommon,
+        projects: enProjects,
       },
       ru: {
-        common: ru,
+        common: ruCommon,
+        projects: ruProjects,
       },
     },
 
     fallbackLng: 'en',
+
     defaultNS: 'common',
+
+    ns: ['common', 'projects'],
 
     interpolation: {
       escapeValue: false,

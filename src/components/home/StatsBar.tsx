@@ -44,7 +44,7 @@ const StatsBar = () => {
             `}
           >
             <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-brand-bg border border-brand-border/40 shrink-0 select-none">
-              <item.icon className="w-5 h-5 " />
+              <item.icon className="w-5 h-5 fill-accent-purple-light" />
             </div>
 
             <div className="flex flex-col min-w-0">

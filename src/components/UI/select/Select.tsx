@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { SelectContext, type SelectProps } from './types'
+import ArrowIcon from '@/assets/icons/arrow.svg?react'
 
 export function Select<T extends string | number>({
   children,
@@ -34,18 +35,13 @@ export function Select<T extends string | number>({
           className="flex items-center gap-2 border border-brand-border bg-brand-surface hover:border-accent-purple/50 px-3 py-1.5 rounded-brand-sm text-sm font-medium transition-colors duration-200 cursor-pointer"
         >
           <span>{value || placeholder}</span>
-          <svg
+          <ArrowIcon
             className={`w-4 h-4 text-muted transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-          </svg>
+          />
         </button>
 
         {isOpen && (
-          <ul className="absolute right-0 mt-2 bg-brand-surface border border-brand-border rounded-brand-sm shadow-xl z-50 overflow-hidden py-1 animate-in fade-in slide-in-from-top-1 duration-100">
+          <ul className="w-full absolute right-0 mt-2 bg-brand-surface border border-brand-border rounded-brand-sm shadow-xl z-50 overflow-hidden py-1 animate-in fade-in slide-in-from-top-1 duration-100">
             {children}
           </ul>
         )}
