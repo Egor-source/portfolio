@@ -5,10 +5,12 @@ import ProjectCard from '../components/projects/ProjectCard.tsx'
 import ProjectsSearch from '../components/projects/ProjectsSearch.tsx'
 import { useMemo, useState } from 'react'
 import { useNavigate } from 'react-router'
+import { useScrollRestoration } from '../hooks/useScrollRestoration.ts'
 
 const ProjectsPage = () => {
   const { t } = useTranslation('projects')
   const navigate = useNavigate()
+  useScrollRestoration('projects-scroll')
   const projectsLocales = t('list', { returnObjects: true }) as ProjectLocale[]
   const projectsList: ProjectItem[] = projectsLocales.map((projectLocale: ProjectLocale) => {
     const data = projectsData.find(({ id }) => id === projectLocale.id)
@@ -61,7 +63,6 @@ const ProjectsPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-in fade-in slide-in-from-top-4 duration-700 delay-100">
           {filteredProjectsList.map((project) => (
             <div
-              id={project.id}
               key={project.id}
               className="cursor-pointer"
               onClick={() => navigate(`/projects/${project.id}`)}

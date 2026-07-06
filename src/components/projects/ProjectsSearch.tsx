@@ -1,4 +1,4 @@
-import { type FC, useState } from 'react'
+import { type FC, useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { MultiSelect } from '../UI/select/MultiSelect.tsx'
 import { SelectOption } from '../UI/select/SelectOption.tsx'
@@ -11,9 +11,12 @@ interface ProjectsSearchProps {
 }
 
 const ProjectsSearch: FC<ProjectsSearchProps> = ({ updateCategory, updateTags, tagsList }) => {
-  const [selectedCategory, setSelectedCategory] = useState<string>('all')
+  const savedTags = sessionStorage.getItem('tags-filter')?.split('~')
+  const [selectedCategory, setSelectedCategory] = useState<string>(
+    sessionStorage.getItem('category-filter') || 'all'
+  )
   const [searchQuery, setSearchQuery] = useState<string>('')
-  const [selectedTags, setSelectedTags] = useState<string[]>([])
+  const [selectedTags, setSelectedTags] = useState<string[]>(savedTags?.[0] ? savedTags : [])
   const [filteredTagsList, setFilteredTagsList] = useState(tagsList)
   const { t } = useTranslation('projects')
 
@@ -27,6 +30,7 @@ const ProjectsSearch: FC<ProjectsSearchProps> = ({ updateCategory, updateTags, t
   const onUpdateCategory = (id: string) => {
     setSelectedCategory(id)
     updateCategory(id)
+    sessionStorage.setItem('category-filter', id)
   }
 
   const onUpdateTags = (tag: string, type?: string) => {
@@ -41,6 +45,7 @@ const ProjectsSearch: FC<ProjectsSearchProps> = ({ updateCategory, updateTags, t
     setSelectedTags(newTags)
     setFilteredTagsList(tagsList.filter((tg) => !newTags.includes(tg)))
     updateTags(newTags)
+    sessionStorage.setItem('tags-filter', newTags.join('~'))
   }
 
   const onUpdateSearch = (query: string) => {
@@ -53,6 +58,11 @@ const ProjectsSearch: FC<ProjectsSearchProps> = ({ updateCategory, updateTags, t
 
     setFilteredTagsList(filtered)
   }
+
+  useEffect(() => {
+    updateTags(selectedTags)
+    updateCategory(selectedCategory)
+  }, [])
 
   return (
     <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-10 pb-6 border-b border-brand-border/40 animate-in fade-in slide-in-from-top-4 duration-600 delay-100">
