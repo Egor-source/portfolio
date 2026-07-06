@@ -61,6 +61,7 @@ const ProjectsPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-in fade-in slide-in-from-top-4 duration-700 delay-100">
           {filteredProjectsList.map((project) => (
             <div
+              id={project.id}
               key={project.id}
               className="cursor-pointer"
               onClick={() => navigate(`/projects/${project.id}`)}

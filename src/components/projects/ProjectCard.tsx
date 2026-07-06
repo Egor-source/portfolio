@@ -49,7 +49,7 @@ const ProjectCard: FC<{ project: ProjectItem }> = ({ project }) => {
           </p>
         </div>
 
-        <div className="flex items-center gap-5 border-t border-brand-border/40 pt-4 mt-auto">
+        <div className="flex items-center justify-between gap-5 border-t border-brand-border/40 pt-4 mt-auto">
           {project.github && (
             <a
               onClick={(e) => e.stopPropagation()}
@@ -66,7 +66,7 @@ const ProjectCard: FC<{ project: ProjectItem }> = ({ project }) => {
           {project.demo && (
             <div
               onClick={onModalOpen}
-              className="inline-flex items-center gap-1.5 text-xs font-semibold text-accent-purple-light hover:text-white transition-colors ml-auto cursor-pointer group/link"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-accent-purple-light hover:text-white transition-colors cursor-pointer group/link"
             >
               <span>{t('liveDemo')}</span>
               <OpenInBrowserIcon

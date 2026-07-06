@@ -2,7 +2,7 @@
   "title": "Featured Projects",
   "subtitle": "A collection of web applications and digital products I've built.",
   "viewCode": "View Code",
-  "liveDemo": "Live Demo",
+  "liveDemo": "Demo Video",
   "categories": {
     "all": "All",
     "full-stack": "Full-Stack",
@@ -12,6 +12,11 @@
   "demoTitle": "Demo video: {{projectTitle}}",
   "searchPlaceholder": "Search by tags",
   "noResults": "No projects found matching your criteria.",
+  "projectNotFound": "Project not found",
+  "backToProjects": "Back to projects list",
+  "aboutProject": "About Project",
+  "technologies": "Technologies Used",
+  "resources": "Resources",
   "list": [
     {
       "id": "1",

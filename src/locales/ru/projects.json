@@ -2,7 +2,7 @@
   "title": "Избранные проекты",
   "subtitle": "Подборка веб-приложений и цифровых продуктов, которые я разработал.",
   "viewCode": "Посмотреть код",
-  "liveDemo": "Демо",
+  "liveDemo": "Демо видео",
   "categories": {
     "all": "Все",
     "full-stack": "Full-Stack",
@@ -12,12 +12,17 @@
   "demoTitle": "Демо видео: {{projectTitle}}",
   "searchPlaceholder": "Поиск по тегам",
   "noResults": "Не найдено проектов, соответствующих вашим критериям.",
+  "projectNotFound": "Проект не найден",
+  "backToProjects": "Вернуться к списку проектов",
+  "aboutProject": "О Проекте",
+  "technologies": "Используемые Технологии",
+  "resources": "Материалы",
   "list": [
     {
       "id": "1",
       "title": "Cybersecurity Dashboard",
       "description": "Real-time threat monitoring platform with advanced analytics, customizable widgets, and automated alerts.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+      "fullDescription": "**This** platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
     },
     {
       "id": "2",
@@ -27,6 +32,72 @@
     },
     {
       "id": "3",
+      "title": "E-Commerce Engine",
+      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+    },
+    {
+      "id": "4",
+      "title": "E-Commerce Engine",
+      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+    },
+    {
+      "id": "5",
+      "title": "E-Commerce Engine",
+      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+    },
+    {
+      "id": "6",
+      "title": "E-Commerce Engine",
+      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+    },
+    {
+      "id": "7",
+      "title": "E-Commerce Engine",
+      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+    },
+    {
+      "id": "8",
+      "title": "E-Commerce Engine",
+      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+    },
+    {
+      "id": "9",
+      "title": "E-Commerce Engine",
+      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+    },
+    {
+      "id": "10",
+      "title": "E-Commerce Engine",
+      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+    },
+    {
+      "id": "11",
+      "title": "E-Commerce Engine",
+      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+    },
+    {
+      "id": "12",
+      "title": "E-Commerce Engine",
+      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+    },
+    {
+      "id": "13",
+      "title": "E-Commerce Engine",
+      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
+      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+    },
+    {
+      "id": "14",
       "title": "E-Commerce Engine",
       "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
       "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
