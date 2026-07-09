@@ -1,236 +1,136 @@
 [
   {
-    "id": "1",
-    "tags": ["React", "TypeScript", "Tailwind CSS", "Node.js", "Nest"],
-    "link": "https://demo.example.com",
-    "category": "frontend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-    "images": ["https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
+    "id": "smail-shop",
+    "tags": ["1С-Bitrix", "Vue.js", "Hybrid SSR/SPA", "Responsive Web Design"],
+    "link": "https://smail.shop",
+    "category": "commercial",
+    "img": "/projects/smail-shop/main.jpg",
+    "images": [
+      "/projects/smail-shop/main.jpg",
+      "/projects/smail-shop/slide-1.png",
+      "/projects/smail-shop/slide-2.png",
+      "/projects/smail-shop/slide-3.png",
+      "/projects/smail-shop/slide-4.png",
+      "/projects/smail-shop/slide-5.png"
+    ]
   },
   {
-    "id": "2",
-    "tags": ["Next.js", "GraphQL", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://shop.example.com",
-    "category": "backend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-    "images": [
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
+    "id": "druid",
+    "tags": [
+      "Vue.js",
+      "Quasar Framework",
+      "Graphql",
+      "Web Sockets",
+      "Responsive Web Design",
+      "Node.js",
+      "Nest.js"
     ],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
+    "link": "https://druid.1t.ru",
+    "category": "commercial",
+    "img": "/projects/druid/main.jpg",
+    "images": [
+      "/projects/druid/main.jpg",
+      "/projects/druid/slide-1.png",
+      "/projects/druid/slide-2.png",
+      "/projects/druid/slide-3.png",
+      "/projects/druid/slide-4.png",
+      "/projects/druid/slide-5.png"
+    ]
   },
   {
-    "id": "3",
-    "tags": ["Next.js", "GraphQL", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://shop.example.com",
-    "category": "backend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
+    "id": "sodis",
+    "tags": ["1С-Bitrix", "Hybrid SSR/SPA", "Responsive Web Design"],
+    "link": "http://www.sodis-camp.ru",
+    "category": "commercial",
+    "img": "/projects/sodis/main.jpg",
     "images": [
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
-    ],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
+      "/projects/sodis/main.jpg",
+      "/projects/sodis/slide-1.png",
+      "/projects/sodis/slide-2.png",
+      "/projects/sodis/slide-3.png",
+      "/projects/sodis/slide-4.png"
+    ]
   },
   {
-    "id": "4",
-    "tags": ["Next.js", "GraphQL", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://shop.example.com",
-    "category": "backend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
+    "id": "parent-helper",
+    "tags": ["React", "Next.js", "Tailwind CSS", "Responsive Web Design"],
+    "link": "https://parent.edu.ru/",
+    "category": "commercial",
+    "img": "/projects/parent-helper/main.jpg",
     "images": [
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
-    ],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
+      "/projects/parent-helper/main.jpg",
+      "/projects/parent-helper/slide-1.png",
+      "/projects/parent-helper/slide-2.png",
+      "/projects/parent-helper/slide-3.png",
+      "/projects/parent-helper/slide-4.png",
+      "/projects/parent-helper/slide-5.png"
+    ]
   },
   {
-    "id": "5",
-    "tags": ["Next.js", "GraphQL", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://shop.example.com",
-    "category": "backend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
+    "id": "delta",
+    "tags": ["1С-Bitrix", "Hybrid SSR/SPA", "Responsive Web Design"],
+    "link": "https://lkdelta.ru/",
+    "category": "commercial",
+    "img": "/projects/delta/main.jpg",
     "images": [
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
-    ],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
+      "/projects/delta/main.jpg",
+      "/projects/delta/slide-1.png",
+      "/projects/delta/slide-2.png",
+      "/projects/delta/slide-3.png",
+      "/projects/delta/slide-4.png"
+    ]
   },
   {
-    "id": "6",
-    "tags": ["Next.js", "GraphQL", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://shop.example.com",
-    "category": "backend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
+    "id": "builder",
+    "tags": ["Vue.js", "Node.js", "Nest.js", "Graphql"],
+    "category": "commercial",
+    "img": "/projects/builder/main.png",
     "images": [
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
-    ],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
+      "/projects/builder/main.png",
+      "/projects/builder/slide-1.png",
+      "/projects/builder/slide-2.png",
+      "/projects/builder/slide-3.png",
+      "/projects/builder/slide-4.png",
+      "/projects/builder/slide-5.png"
+    ]
   },
   {
-    "id": "7",
-    "tags": ["Next.js", "GraphQL", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://shop.example.com",
-    "category": "backend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
+    "id": "cinimex",
+    "tags": ["1С-Bitrix", "Hybrid SSR/SPA", "Responsive Web Design"],
+    "link": "https://www.cinimex.ru/",
+    "category": "commercial",
+    "img": "/projects/cinimex/main.jpg",
     "images": [
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
-    ],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
+      "/projects/cinimex/main.jpg",
+      "/projects/cinimex/slide-1.png",
+      "/projects/cinimex/slide-2.png",
+      "/projects/cinimex/slide-3.png"
+    ]
   },
   {
-    "id": "8",
-    "tags": ["Next.js", "GraphQL", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://shop.example.com",
-    "category": "backend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
+    "id": "nschg",
+    "tags": ["1С-Bitrix", "Hybrid SSR/SPA", "Responsive Web Design"],
+    "link": "https://nschg.ru/",
+    "category": "commercial",
+    "img": "/projects/nschg/main.jpg",
     "images": [
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
-    ],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
+      "/projects/nschg/main.jpg",
+      "/projects/nschg/slide-1.png",
+      "/projects/nschg/slide-2.png"
+    ]
   },
   {
-    "id": "9",
-    "tags": ["Next.js", "GraphQL", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://shop.example.com",
-    "category": "backend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
+    "id": "cicle",
+    "tags": ["1С-Bitrix", "Vue.js", "Hybrid SSR/SPA", "Responsive Web Design"],
+    "link": "https://b2b.cicle.ru/",
+    "category": "commercial",
+    "img": "/projects/cicle/main.jpg",
     "images": [
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
-    ],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
-  },
-  {
-    "id": "10",
-    "tags": ["Next.js", "GraphQL", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://shop.example.com",
-    "category": "backend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-    "images": [
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
-    ],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
-  },
-  {
-    "id": "11",
-    "tags": ["Next.js", "GraphQL", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://shop.example.com",
-    "category": "backend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-    "images": [
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
-    ],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
-  },
-  {
-    "id": "12",
-    "tags": ["Next.js", "GraphQL", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://shop.example.com",
-    "category": "backend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-    "images": [
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
-    ],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
-  },
-  {
-    "id": "13",
-    "tags": ["Next.js", "GraphQL", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://shop.example.com",
-    "category": "backend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-    "images": [
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
-    ],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
-  },
-  {
-    "id": "14",
-    "tags": ["Next.js", "GraphQL", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://shop.example.com",
-    "category": "backend",
-    "img": "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-    "images": [
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif",
-      "https://i.pinimg.com/originals/23/51/bc/2351bc65b2b5d75cef146b7edddf805b.gif"
-    ],
-    "github": "https://github.com/example",
-    "demo": {
-      "youtube": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=TqkL1NkX_lwdqR1p",
-      "vk": "https://vk.com/video_ext.php?oid=-35002164&id=161714590"
-    }
+      "/projects/cicle/main.jpg",
+      "/projects/cicle/slide-1.png",
+      "/projects/cicle/slide-2.png",
+      "/projects/cicle/slide-3.png",
+      "/projects/cicle/slide-4.png"
+    ]
   }
 ]

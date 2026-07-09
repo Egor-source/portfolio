@@ -91,13 +91,13 @@ const ProjectDetailPage = () => {
                 </section>
               )}
               {loading && <div>Loading...</div>}
-              {error && <div>error</div>}
+              {error && <div>{error.message}</div>}
             </div>
 
             <div className="space-y-8 order-0 md:order-1 md:sticky md:top-22 md:self-start">
               <div className="bg-brand-surface/40 border border-brand-border/60 p-5 rounded-brand">
                 <h3 className="text-sm font-bold uppercase tracking-wider text-muted mb-4">
-                  {t('technologies')}
+                  {t('tags')}
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (

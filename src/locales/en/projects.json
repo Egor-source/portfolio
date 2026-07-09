@@ -1,13 +1,12 @@
 {
   "title": "Featured Projects",
-  "subtitle": "A collection of web applications and digital products I've built.",
+  "subtitle": "A collection of web applications and digital products in the development of which I participated.",
   "viewCode": "View Code",
   "liveDemo": "Demo Video",
   "categories": {
     "all": "All",
-    "full-stack": "Full-Stack",
-    "frontend": "Frontend",
-    "backend": "Backend"
+    "commercial": "Commercial",
+    "personal": "Personal"
   },
   "demoTitle": "Demo video: {{projectTitle}}",
   "searchPlaceholder": "Search by tags",
@@ -15,26 +14,55 @@
   "projectNotFound": "Project not found",
   "backToProjects": "Back to projects list",
   "aboutProject": "About Project",
-  "technologies": "Technologies Used",
+  "tags": "Tags",
   "resources": "Resources",
+  "link": "Project Web Site",
+  "notPublic": "Not a public project",
   "list": [
     {
-      "id": "1",
-      "title": "Cybersecurity Dashboard",
-      "description": "Real-time threat monitoring platform with advanced analytics, customizable widgets, and automated alerts.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+      "id": "smail-shop",
+      "title": "Smail Shop — Children's Clothing E-commerce",
+      "description": "Development of a responsive frontend for a modern kids' outerwear e-commerce platform featuring a hybrid wholesale/retail B2B/B2C sales system and complex size matrices."
     },
     {
-      "id": "2",
-      "title": "E-Commerce Engine",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+      "id": "druid",
+      "title": "Druid — Enterprise Project & Knowledge Management Platform",
+      "description": "A feature-rich corporate workspace designed to automate business workflows, team collaboration, and wiki management by unifying interactive project management tools into a single ecosystem."
     },
     {
-      "id": "3",
-      "title": "E-Commerce Engine",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+      "id": "sodis",
+      "title": "Sodis-Camp — Premium Bespoke Tours & Expeditions Web Platform",
+      "description": "Development of an interactive frontend for a luxury travel service featuring custom catalog filters, inline map/gallery previews within product cards, geo-targeted widgets, and dynamic video layouts."
+    },
+    {
+      "id": "parent-helper",
+      "title": "Parent Assistant — Digital Ecosystem for K-12 Education",
+      "description": "Development of a Next.js-powered frontend for a national educational platform, featuring high-density data directories, interactive event calendars, student diagnostics, and real-time client-side filtering engines."
+    },
+    {
+      "id": "delta",
+      "title": "Delta — Corporate Web Platform for a Leasing Company",
+      "description": "Development of the frontend layers for a commercial leasing platform, featuring an interactive financial calculator, automated geo-location detection, dynamic reports grids, and advanced lead generation forms."
+    },
+    {
+      "id": "builder",
+      "title": "Internal Construction Management & Automation Platform",
+      "description": "Fullstack development of an interactive cyclogram and master schedule engine for a real estate developer. Features floor-by-floor and section-by-section task planning, runtime progress tracking, and dependency chain management."
+    },
+    {
+      "id": "cinimex",
+      "title": "Cinimex — Enterprise Corporate Web Portal for an IT Integrator",
+      "description": "Frontend development of a high-load corporate website using block-based UI constructors, interactive Google Maps routes from subway stations, a comprehensive career dashboard, and complete English/Russian localization mirrors."
+    },
+    {
+      "id": "nschg",
+      "title": "New Chernogolovka School — Educational Institution Web Portal",
+      "description": "Frontend development and deep customization of a school management website. Features an accessible UI version compliant with WCAG 2.1, dynamic live search, online application wizard forms, and interactive exam metrics."
+    },
+    {
+      "id": "cicle",
+      "title": "Cicle — B2B Wholesale Distribution Web Platform",
+      "description": "Frontend development of a secured wholesale e-commerce portal. Features an interactive transport volume load calculator, a high-density tabular catalog grid for power users, multi-profile company accounts, and debt-tracking metrics dashboards."
     }
   ]
 }

@@ -1,13 +1,12 @@
 {
   "title": "Избранные проекты",
-  "subtitle": "Подборка веб-приложений и цифровых продуктов, которые я разработал.",
+  "subtitle": "Подборка веб-приложений и цифровых продуктов, в разработки которых я участвовал.",
   "viewCode": "Посмотреть код",
   "liveDemo": "Демо видео",
   "categories": {
     "all": "Все",
-    "full-stack": "Full-Stack",
-    "frontend": "Фронтенд",
-    "backend": "Бэкенд"
+    "commercial": "Коммерческие",
+    "personal": "Личные"
   },
   "demoTitle": "Демо видео: {{projectTitle}}",
   "searchPlaceholder": "Поиск по тегам",
@@ -15,92 +14,55 @@
   "projectNotFound": "Проект не найден",
   "backToProjects": "Вернуться к списку проектов",
   "aboutProject": "О Проекте",
-  "technologies": "Используемые Технологии",
+  "tags": "Тэги",
   "resources": "Материалы",
+  "link": "Сайт проекта",
+  "notPublic": "Не публичный проект",
   "list": [
     {
-      "id": "1",
-      "title": "1",
-      "description": "Real-time threat monitoring platform with advanced analytics, customizable widgets, and automated alerts.",
-      "fullDescription": "**This** platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+      "id": "smail-shop",
+      "title": "Smail Shop — Интернет-магазин детской одежды",
+      "description": "Разработка адаптивного фронтенда для омниканальной e-commerce платформы, сочетающей B2C-каталог и функциональный B2B-кабинет со списочным сбором заказов, Elasticsearch и интеграцией с учетной системой."
     },
     {
-      "id": "2",
-      "title": "2",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+      "id": "druid",
+      "title": "Druid — Корпоративная платформа для управления проектами и знаниями",
+      "description": "Многофункциональное enterprise-решение для автоматизации рабочих процессов, совместной работы и ведения баз знаний, объединяющее интерактивные проектные инструменты в рамках единого пространства."
     },
     {
-      "id": "3",
-      "title": "3",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+      "id": "sodis",
+      "title": "Sodis-Camp — Веб-платформа подбора индивидуальных туров и экспедиций",
+      "description": "Разработка интерактивного фронтенда премиального туристического сервиса с кастомной фильтрацией, встроенными картами маршрутов прямо в превью-карточках, интерактивной картой-фильтром и динамическими видео-обложками."
     },
     {
-      "id": "4",
-      "title": "4",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+      "id": "parent-helper",
+      "title": "Помощник родителя — Цифровая экосистема детского образования",
+      "description": "Разработка интерактивного фронтенда образовательного сервиса на Next.js, включающего многоступенчатые каталоги материалов базы знаний, интерактивный календарь всероссийских олимпиад, модули тестирования и адаптивные системы фильтрации контента."
     },
     {
-      "id": "5",
-      "title": "5",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+      "id": "delta",
+      "title": "Дельта — Корпоративный веб-сайт лизинговой компании",
+      "description": "Разработка фронтенд-части корпоративного портала лизинговой компании с интерактивным калькулятором платежей, модулем автоматического геоопределения пользователя, динамическими таблицами отчетности и сложными формами лидогенерации."
     },
     {
-      "id": "6",
-      "title": "6",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+      "id": "builder",
+      "title": "Внутренняя система автоматизации и контроля жилищного строительства",
+      "description": "Разработка интерактивной циклограммы и модуля ГПР для автоматизации строительного контроля девелопера. Включает планирование СМР по этажам и секциям, учет фактического выполнения работ, расчет зависимостей и управление структурой объектов."
     },
     {
-      "id": "7",
-      "title": "7",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+      "id": "cinimex",
+      "title": "Синимекс — Официальный корпоративный портал ИТ-интегратора",
+      "description": "Разработка многофункциональной фронтенд-части корпоративного сайта ИТ-компании со сборкой страниц из независимых блоков, интерактивными картами Google Maps с расчетом маршрутов от метро, модулем вакансий и полноценным языковым зеркалированием контента."
     },
     {
-      "id": "8",
-      "title": "8",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+      "id": "nschg",
+      "title": "Новая Черноголовская школа — Официальный портал общеобразовательного учреждения",
+      "description": "Фронтенд-разработка и глубокая кастомизация веб-платформы частной школы. Включает разработку интерактивной версии для слабовидящих по ГОСТ, интеграцию онлайн-форм подачи заявлений, таблиц успеваемости ОГЭ/ЕГЭ и живого поиска без перезагрузки."
     },
     {
-      "id": "9",
-      "title": "9",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
-    },
-    {
-      "id": "10",
-      "title": "10",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
-    },
-    {
-      "id": "11",
-      "title": "11",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
-    },
-    {
-      "id": "12",
-      "title": "12",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
-    },
-    {
-      "id": "13",
-      "title": "13",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
-    },
-    {
-      "id": "14",
-      "title": "14",
-      "description": "A high-performance modular headless commerce platform with instant search and server-side rendering.",
-      "fullDescription": "This platform allows security teams to monitor network traffic, detect anomalies, and respond to threats in real-time. Built with high performance in mind, it handles thousands of data points per second. Key features include custom drag-and-drop widgets, automated incident reporting, and seamless integration with third-party SIEM systems."
+      "id": "cicle",
+      "title": "Фирма Цикл — Отраслевая B2B-платформа дистрибуции садово-хозяйственных товаров",
+      "description": "Разработка фронтенд-слоя закрытого B2B-портала оптовых продаж. Включает интерактивный трекер объема загрузки транспорта, табличную сетку каталога для профессионалов, многопользовательские профили холдингов и динамические графики задолженностей."
     }
   ]
 }
