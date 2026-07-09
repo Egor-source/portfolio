@@ -9,10 +9,10 @@ const LayoutNav = () => {
   const links = [
     { to: '/', label: t('nav.home') },
     { to: '/projects', label: t('nav.projects') },
-    { to: '/experience', label: t('nav.experience') },
-    { to: '/case-studies', label: t('nav.caseStudies') },
-    { to: '/tech-stack', label: t('nav.techStack') },
-    { to: '/about', label: t('nav.about') },
+    // { to: '/experience', label: t('nav.experience') },
+    // { to: '/case-studies', label: t('nav.caseStudies') },
+    // { to: '/tech-stack', label: t('nav.techStack') },
+    // { to: '/about', label: t('nav.about') },
   ]
 
   const desktopLinkClass = ({ isActive }: { isActive: boolean }) =>
