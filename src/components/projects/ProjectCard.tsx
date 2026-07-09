@@ -2,6 +2,7 @@ import { type FC, useState, type MouseEvent } from 'react'
 import type { ProjectItem } from './types.ts'
 import { useTranslation } from 'react-i18next'
 import CodeIcon from '@/assets/icons/code.svg?react'
+import LinkIcon from '@/assets/icons/link.svg?react'
 import OpenInBrowserIcon from '@/assets/icons/open-in-browser.svg?react'
 import Tag from '../UI/Tag.tsx'
 import DemoModal from './DemoModal.tsx'
@@ -20,7 +21,7 @@ const ProjectCard: FC<{ project: ProjectItem }> = ({ project }) => {
   }
 
   return (
-    <article className="flex flex-col bg-brand-surface border border-brand-border rounded-brand overflow-hidden hover:border-accent-purple/40 hover:shadow-2xl hover:shadow-accent-purple/5 transition-all duration-300 group">
+    <article className="h-full flex flex-col bg-brand-surface border border-brand-border rounded-brand overflow-hidden hover:border-accent-purple/40 hover:shadow-2xl hover:shadow-accent-purple/5 transition-all duration-300 group">
       <div className="relative aspect-[16/10] w-full overflow-hidden bg-brand-bg border-b border-brand-border/60">
         <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-300 z-10" />
 
@@ -44,9 +45,7 @@ const ProjectCard: FC<{ project: ProjectItem }> = ({ project }) => {
             {project.title}
           </h2>
 
-          <p className="text-muted text-sm leading-relaxed mb-6 line-clamp-3">
-            {project.description}
-          </p>
+          <p className="text-muted text-sm leading-relaxed mb-6">{project.description}</p>
         </div>
 
         <div className="flex items-center justify-between gap-5 border-t border-brand-border/40 pt-4 mt-auto">
@@ -63,6 +62,19 @@ const ProjectCard: FC<{ project: ProjectItem }> = ({ project }) => {
             </a>
           )}
 
+          {project.link && (
+            <a
+              onClick={(e) => e.stopPropagation()}
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted hover:text-white transition-colors cursor-pointer group/link"
+            >
+              <LinkIcon className="w-4 h-4 text-muted group-hover/link:text-white" />
+              <span>{t('link')}</span>
+            </a>
+          )}
+
           {project.demo && (
             <div
               onClick={onModalOpen}
@@ -74,6 +86,10 @@ const ProjectCard: FC<{ project: ProjectItem }> = ({ project }) => {
                 stroke="currentColor"
               />
             </div>
+          )}
+
+          {!project.demo && !project.link && !project.github && (
+            <div className="text-muted text-xs">{t('notPublic')}</div>
           )}
         </div>
       </div>

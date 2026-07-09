@@ -2,7 +2,6 @@ export interface ProjectLocale {
   id: string
   title: string
   description: string
-  fullDescription: string
 }
 
 export interface ProjectData {

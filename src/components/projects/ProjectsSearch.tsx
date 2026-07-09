@@ -22,9 +22,8 @@ const ProjectsSearch: FC<ProjectsSearchProps> = ({ updateCategory, updateTags, t
 
   const categories = [
     { id: 'all', label: t('categories.all') },
-    { id: 'full-stack', label: t('categories.full-stack') },
-    { id: 'frontend', label: t('categories.frontend') },
-    { id: 'backend', label: t('categories.backend') },
+    { id: 'commercial', label: t('categories.commercial') },
+    { id: 'personal', label: t('categories.personal') },
   ]
 
   const onUpdateCategory = (id: string) => {

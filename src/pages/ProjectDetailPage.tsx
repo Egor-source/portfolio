@@ -4,16 +4,20 @@ import projectsData from '../data/projects.json'
 import { Link, useParams } from 'react-router'
 import type { ProjectItem, ProjectLocale } from '../components/projects/types.ts'
 import CodeIcon from '@/assets/icons/code.svg?react'
+import LinkIcon from '@/assets/icons/link.svg?react'
 import DemoModal from '../components/projects/DemoModal.tsx'
 import OpenInBrowserIcon from '@/assets/icons/open-in-browser.svg?react'
 import SliderContainer from '../components/UI/slider/SliderContainer.tsx'
 import Slide from '../components/UI/slider/Slide.tsx'
 import ReactMarkdown from 'react-markdown'
 import { ScrollToTop } from '../components/ScrollToTop.tsx'
+import { useProjectMarkdown } from '../hooks/useProjectMarkdown.ts'
 
 const ProjectDetailPage = () => {
   const { id } = useParams<{ id: string }>()
   const { t } = useTranslation('projects')
+  const { content, loading, error } = useProjectMarkdown(id!)
+
   const [isDemoModalOpen, setIsDemoModalOpen] = useState(false)
 
   const projectsLocales = t('list', { returnObjects: true }) as ProjectLocale[]
@@ -61,7 +65,7 @@ const ProjectDetailPage = () => {
           </h1>
 
           <div className="w-full max-w-4xl mx-auto">
-            <SliderContainer>
+            <SliderContainer lazy>
               {sliderImages.map((src, index) => (
                 <Slide className="max-w-4xl" key={`${src}-${index}`}>
                   <img
@@ -69,22 +73,28 @@ const ProjectDetailPage = () => {
                     key={index}
                     alt={`${project.title} screenshot ${index + 1}`}
                     draggable="false"
-                    className="w-full h-full object-cover object-top aspect-[16/9]"
+                    className="w-full h-full  aspect-[16/9]"
                   />
                 </Slide>
               ))}
             </SliderContainer>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div className="md:col-span-2 space-y-6">
-              <h2 className="text-xl font-bold font-sans border-b border-brand-border/40 pb-2">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 ">
+            <div className="md:col-span-2 space-y-6 order-1 md:order-0">
+              <h2 className="text-xl font-bold font-sans border-b border-violet-600/40 pb-2">
                 {t('aboutProject')}
               </h2>
-              <ReactMarkdown>{project.fullDescription || project.description}</ReactMarkdown>
+              {content && (
+                <section className="markdown">
+                  <ReactMarkdown>{content}</ReactMarkdown>
+                </section>
+              )}
+              {loading && <div>Loading...</div>}
+              {error && <div>error</div>}
             </div>
 
-            <div className="space-y-8">
+            <div className="space-y-8 order-0 md:order-1 md:sticky md:top-22 md:self-start">
               <div className="bg-brand-surface/40 border border-brand-border/60 p-5 rounded-brand">
                 <h3 className="text-sm font-bold uppercase tracking-wider text-muted mb-4">
                   {t('technologies')}
@@ -129,6 +139,22 @@ const ProjectDetailPage = () => {
                     <span>{t('viewCode')}</span>
                     <CodeIcon className="w-4 h-4" />
                   </a>
+                )}
+
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-between p-3 rounded-brand-sm bg-brand-bg border border-brand-border hover:border-muted text-white text-sm transition-colors"
+                  >
+                    <span>{t('link')}</span>
+                    <LinkIcon className="w-4 h-4" />
+                  </a>
+                )}
+
+                {!project.demo && !project.github && !project.link && (
+                  <div className="text-muted">{t('notPublic')}</div>
                 )}
               </div>
             </div>

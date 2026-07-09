@@ -1,16 +1,23 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import ArrowIcon from '@/assets/icons/arrow.svg?react'
+const HIDE_DELAY = 3000
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false)
+  const hideTimer = useRef<number | null>(null)
 
   useEffect(() => {
     const abortController = new AbortController()
     window.addEventListener(
       'scroll',
       () => {
+        if (hideTimer.current) {
+          clearTimeout(hideTimer.current)
+        }
+
         if (window.scrollY > 300) {
           setIsVisible(true)
+          hideTimer.current = setTimeout(() => setIsVisible(false), HIDE_DELAY)
         } else {
           setIsVisible(false)
         }

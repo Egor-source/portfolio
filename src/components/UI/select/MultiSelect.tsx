@@ -100,7 +100,7 @@ export function MultiSelect<T extends string | number>({
         </button>
 
         {isOpen && (
-          <ul className="w-full absolute right-0 mt-2 bg-brand-surface border border-brand-border rounded-brand-sm shadow-xl z-50 overflow-hidden py-1 animate-in fade-in slide-in-from-top-1 duration-100">
+          <ul className="w-full max-h-69 overflow-auto absolute right-0 mt-2 bg-brand-surface border border-brand-border rounded-brand-sm shadow-xl z-50 py-1 animate-in fade-in slide-in-from-top-1 duration-100">
             {options}
           </ul>
         )}
