@@ -21,27 +21,27 @@
   "list": [
     {
       "id": "smail-shop",
-      "title": "Smail Shop — Children's Clothing E-commerce",
+      "title": "Smail Shop - Children's Clothing E-commerce",
       "description": "Development of a responsive frontend for a modern kids' outerwear e-commerce platform featuring a hybrid wholesale/retail B2B/B2C sales system and complex size matrices."
     },
     {
       "id": "druid",
-      "title": "Druid — Enterprise Project & Knowledge Management Platform",
+      "title": "Druid - Enterprise Project & Knowledge Management Platform",
       "description": "A feature-rich corporate workspace designed to automate business workflows, team collaboration, and wiki management by unifying interactive project management tools into a single ecosystem."
     },
     {
       "id": "sodis",
-      "title": "Sodis-Camp — Premium Bespoke Tours & Expeditions Web Platform",
+      "title": "Sodis-Camp - Premium Bespoke Tours & Expeditions Web Platform",
       "description": "Development of an interactive frontend for a luxury travel service featuring custom catalog filters, inline map/gallery previews within product cards, geo-targeted widgets, and dynamic video layouts."
     },
     {
       "id": "parent-helper",
-      "title": "Parent Assistant — Digital Ecosystem for K-12 Education",
+      "title": "Parent Assistant - Digital Ecosystem for K-12 Education",
       "description": "Development of a Next.js-powered frontend for a national educational platform, featuring high-density data directories, interactive event calendars, student diagnostics, and real-time client-side filtering engines."
     },
     {
       "id": "delta",
-      "title": "Delta — Corporate Web Platform for a Leasing Company",
+      "title": "Delta - Corporate Web Platform for a Leasing Company",
       "description": "Development of the frontend layers for a commercial leasing platform, featuring an interactive financial calculator, automated geo-location detection, dynamic reports grids, and advanced lead generation forms."
     },
     {
@@ -51,17 +51,17 @@
     },
     {
       "id": "cinimex",
-      "title": "Cinimex — Enterprise Corporate Web Portal for an IT Integrator",
+      "title": "Cinimex - Enterprise Corporate Web Portal for an IT Integrator",
       "description": "Frontend development of a high-load corporate website using block-based UI constructors, interactive Google Maps routes from subway stations, a comprehensive career dashboard, and complete English/Russian localization mirrors."
     },
     {
       "id": "nschg",
-      "title": "New Chernogolovka School — Educational Institution Web Portal",
+      "title": "New Chernogolovka School - Educational Institution Web Portal",
       "description": "Frontend development and deep customization of a school management website. Features an accessible UI version compliant with WCAG 2.1, dynamic live search, online application wizard forms, and interactive exam metrics."
     },
     {
       "id": "cicle",
-      "title": "Cicle — B2B Wholesale Distribution Web Platform",
+      "title": "Cicle - B2B Wholesale Distribution Web Platform",
       "description": "Frontend development of a secured wholesale e-commerce portal. Features an interactive transport volume load calculator, a high-density tabular catalog grid for power users, multi-profile company accounts, and debt-tracking metrics dashboards."
     }
   ]

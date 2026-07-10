@@ -2,7 +2,7 @@ An internal enterprise ERP ecosystem engineered for a major real estate develope
 
 ### My Role & Key Contributions
 
-As a Fullstack Developer, I held total ownership over architecting, database modeling, and building the front-end view layers for the platform's core high-load component — the interactive Master Construction Schedule (Gantt/cyclogram engine) and its peripheral management configuration modules.
+As a Fullstack Developer, I held total ownership over architecting, database modeling, and building the front-end view layers for the platform's core high-load component - the interactive Master Construction Schedule (Gantt/cyclogram engine) and its peripheral management configuration modules.
 
 ### Key Implemented Modules & Features
 

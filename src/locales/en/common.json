@@ -36,7 +36,7 @@
   },
   "404": {
     "title": "Page Not Found",
-    "message": "Oops! It looks like this page got lost in the digital void—or never existed at all.",
+    "message": "Oops! It looks like this page got lost in the digital void-or never existed at all.",
     "back": "Back to Home"
   }
 }
