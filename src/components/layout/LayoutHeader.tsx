@@ -11,7 +11,7 @@ const LayoutHeader = () => {
   const [isContactOpen, setIsContactOpen] = useState(false)
   return (
     <header className="w-full flex justify-center bg-brand-bg border-b border-brand-border sticky top-0 z-40 backdrop-blur-md bg-brand-bg/90">
-      <div className="w-full max-w-7xl mx-auto px-6 h-20 flex items-center">
+      <div className="w-full max-w-7xl mx-auto px-6 h-20 flex md:grid md:grid-cols-3 items-center">
         <Link
           to="/"
           className="flex items-center gap-1 group text-white font-sans text-2xl font-bold tracking-tight mr-8"
@@ -25,7 +25,7 @@ const LayoutHeader = () => {
           <LayoutNav />
         </div>
 
-        <div className="flex items-center gap-4 ml-auto md:ml-0">
+        <div className="flex items-center gap-4 ml-auto md:ml-0 justify-end">
           <LanguageSelect />
 
           <Button onClick={() => setIsContactOpen(true)}>{t('contactMe')}</Button>
