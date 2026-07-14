@@ -39,7 +39,6 @@ export function useProjectMarkdown(slug: string): UseProjectMarkdownResult {
         setLoading(true)
         setError(null)
         const path = `/src/locales/${lang}/projectsDescriptions/${slug}.md`
-        console.log(markdownFiles)
 
         const loader = markdownFiles[path]
 

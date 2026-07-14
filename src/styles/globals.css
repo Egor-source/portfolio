@@ -38,6 +38,13 @@ body,
   margin-bottom: 30px;
 }
 
+.markdown pre {
+  background-color: #050512;
+  padding: 16px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
 @theme {
   /* Основной фон и карточки */
   --color-brand-bg: #050512; /* Глубокий темный фон всего сайта */

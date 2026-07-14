@@ -45,6 +45,11 @@
       "description": "Development of the frontend layers for a commercial leasing platform, featuring an interactive financial calculator, automated geo-location detection, dynamic reports grids, and advanced lead generation forms."
     },
     {
+      "id": "odmio",
+      "title": "OdmioJs - Custom Monorepo ODM for MongoDB in TypeScript",
+      "description": "A high-level, type-safe TypeScript ODM built with modularity in mind. Features a fully driver-agnostic design (including an In-Memory Mongo driver for seamless isolation testing) and clean package separation."
+    },
+    {
       "id": "builder",
       "title": "Internal Construction Management & Automation Platform",
       "description": "Fullstack development of an interactive cyclogram and master schedule engine for a real estate developer. Features floor-by-floor and section-by-section task planning, runtime progress tracking, and dependency chain management."
@@ -55,9 +60,19 @@
       "description": "Frontend development of a high-load corporate website using block-based UI constructors, interactive Google Maps routes from subway stations, a comprehensive career dashboard, and complete English/Russian localization mirrors."
     },
     {
+      "id": "hotora",
+      "title": "Hotora",
+      "description": "A lightweight JS/TS library for handling keyboard shortcuts, gestures, and complex input sequences with customizable, scoped actions."
+    },
+    {
       "id": "nschg",
       "title": "New Chernogolovka School - Educational Institution Web Portal",
       "description": "Frontend development and deep customization of a school management website. Features an accessible UI version compliant with WCAG 2.1, dynamic live search, online application wizard forms, and interactive exam metrics."
+    },
+    {
+      "id": "data-heroes",
+      "title": "Notification Policy Service",
+      "description": "A backend service for managing user notification preferences and delivery policies. Built with Node.js, TypeScript, Express, and PostgreSQL, the project demonstrates modular architecture, type-safe validation, database migrations, API documentation, and integration testing.\n\nThe service evaluates whether notifications can be delivered based on global rules, user preferences, notification channels, regions, and time-based restrictions."
     },
     {
       "id": "cicle",

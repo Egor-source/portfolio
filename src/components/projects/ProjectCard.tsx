@@ -29,7 +29,7 @@ const ProjectCard: FC<{ project: ProjectItem }> = ({ project }) => {
           src={project.img}
           alt={project.title}
           loading="lazy"
-          className="w-full h-full object-cover object-top transform group-hover:scale-[1.03] transition-transform duration-500"
+          className="w-full h-full  transform group-hover:scale-[1.03] transition-transform duration-500"
         />
       </div>
 

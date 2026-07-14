@@ -23,7 +23,9 @@
       "Web Sockets",
       "Responsive Web Design",
       "Node.js",
-      "Nest.js"
+      "Nest.js",
+      "PostgresSQL",
+      "TypeScript"
     ],
     "link": "https://druid.1t.ru",
     "category": "commercial",
@@ -81,8 +83,26 @@
     ]
   },
   {
+    "id": "odmio",
+    "tags": ["TypeScript", "MongoDB", "Node.js", "ODM"],
+    "category": "personal",
+    "img": "/projects/odmio/main.png",
+    "images": ["/projects/odmio/main.png"],
+    "github": "https://github.com/Egor-source/OdmioJs"
+  },
+  {
     "id": "builder",
-    "tags": ["Vue.js", "Node.js", "Nest.js", "Graphql"],
+    "tags": [
+      "Vue.js",
+      "Node.js",
+      "Nest.js",
+      "Graphql",
+      "MongoDB",
+      "TypeScript",
+      "Docker",
+      "Redis",
+      "Kafka"
+    ],
     "category": "commercial",
     "img": "/projects/builder/main.png",
     "images": [
@@ -108,6 +128,14 @@
     ]
   },
   {
+    "id": "hotora",
+    "tags": ["TypeScript", "Library"],
+    "category": "personal",
+    "img": "/projects/hotora/main.png",
+    "images": ["/projects/hotora/main.png"],
+    "github": "https://github.com/Egor-source/Hotora"
+  },
+  {
     "id": "nschg",
     "tags": ["1С-Bitrix", "Hybrid SSR/SPA", "Responsive Web Design"],
     "link": "https://nschg.ru/",
@@ -118,6 +146,14 @@
       "/projects/nschg/slide-1.png",
       "/projects/nschg/slide-2.png"
     ]
+  },
+  {
+    "id": "data-heroes",
+    "tags": ["TypeScript", "PostgresSQL", "Docker", "Node.js"],
+    "category": "personal",
+    "img": "/projects/data-heroes/main.png",
+    "images": ["/projects/data-heroes/main.png"],
+    "github": "https://github.com/Egor-source/Data-Heroes"
   },
   {
     "id": "cicle",
